@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01848F"
+    android:orientation="vertical"
+    tools:context="com.example.rahuljain.investmanagment.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/at_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <AutoCompleteTextView
+            android:id="@+id/at_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <AutoCompleteTextView
+            android:id="@+id/at_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <AutoCompleteTextView
+            android:id="@+id/at_numbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="MobileNumber"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#F9A11F"
+            android:hint="Submit"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:gravity="center_horizontal"
+            android:text="Present By MobiSqure"
+            android:textColor="#FFf"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
